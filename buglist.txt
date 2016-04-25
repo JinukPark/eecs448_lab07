@@ -1,0 +1,10 @@
+1.
+
+2. removeFront()
+	- removes the node from the back.
+
+3. void addBack(T value);
+	- If it is not adding the first node, it addes the value of node previously added.
+
+4. size()
+	- In the absence of node, count is 1. With 1 node, count is 2.
