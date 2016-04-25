@@ -22,11 +22,20 @@ void Test::ts_isEmpty(){
 	LinkedList<int> *list = new LinkedList<int>;
 	bool result;
 
-	cout << "Size of the list is " << correctSizeofList(list) << endl;
-	if (list->toVector().empty())
-		cout << "The list is empty." << endl;
+	priVec(list);
+	
+	if (list->isEmpty())
+	{
+		cout << "List is empty" << endl;
+		result = (list->toVector().size() == 0) ? true : false;
+	}
 	else
-		cout << "The list is NOT empty." << endl;;
+	{
+		cout << "List is NOT empty" << endl;
+		result = (list->toVector().size() != 0) ? true : false;
+	}
+	cout << "isEmpty() : ";
+	dispResult(result);
 };
 
 void Test::ts_size(){

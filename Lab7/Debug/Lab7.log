@@ -1,10 +1,9 @@
-﻿Build started 4/25/2016 12:13:51 AM.
+﻿Build started 4/25/2016 9:22:44 AM.
      1>Project "C:\Users\Park\Google Drive\School\KU\2016 Spring\EECS 448\Lab7\Lab7\Lab7.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Test.cpp
          Test.cpp
-     1>c:\users\park\google drive\school\ku\2016 spring\eecs 448\lab7\lab7\test.cpp(23): warning C4101: 'result' : unreferenced local variable
-     1>c:\users\park\google drive\school\ku\2016 spring\eecs 448\lab7\lab7\test.cpp(239): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\park\google drive\school\ku\2016 spring\eecs 448\lab7\lab7\test.cpp(248): warning C4018: '<' : signed/unsigned mismatch
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Park\Google Drive\School\KU\2016 Spring\EECS 448\Lab7\Debug\Lab7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Park\Google Drive\School\KU\2016 Spring\EECS 448\Lab7\Debug\Lab7.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Park\Google Drive\School\KU\2016 Spring\EECS 448\Lab7\Debug\Lab7.lib" /MACHINE:X86 Debug\main.obj
          Debug\Test.obj
@@ -13,4 +12,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:03.35
+Time Elapsed 00:00:01.10

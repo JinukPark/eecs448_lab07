@@ -1,4 +1,5 @@
-1.
+1. isEmpty()
+	- Gives false when the list is actually empty.
 
 2. removeFront()
 	- removes the node from the back.
